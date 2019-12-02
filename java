@@ -1,4 +1,4 @@
-package com.qf.qxy.controller;
+package com.cy.qxy.controller;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.qf.qxy.pojo.ImageCodePojo;
+import com.cy.qxy.pojo.ImageCodePojo;
 
 @WebServlet("/code.do")
 public class ImageCodeServlet extends HttpServlet {
